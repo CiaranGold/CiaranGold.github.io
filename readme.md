@@ -32,6 +32,7 @@ Build multipage website using HTML, CSS, Javascript.
 ### 0.2
 
 - Added index.html
+- Added skeleton website structure
 
 ### 0.1
 
