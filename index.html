@@ -6,15 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciaran Gold | Web Developer</title>
     <link rel="icon" type="'image/x-icon" href="images/pen-solid.ico">
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
     <meta name="description" content="The website of web developer Ciaran Gold">
 </head>
-
+<!-- nav -->
 <body>
-<!--Navigation bar-->
-    <nav><a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></nav>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>Ciaran Gold</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav m mb-0 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--     <nav><a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></nav> -->
+
 <!--Main content-->
+<div class="container-fluid">
     <h1>Ciaran Gold</h1>
-    <p>Welcome to my portfolio! Here's some placeholder text!
+    <h2>Web developer</h2>
+    
+    <p class="">Welcome to my portfolio! Here's some placeholder text!
     <br>
     <br>
     I'm a passionate web developer dedicated to crafting engaging online experiences. With a blend of creativity
@@ -22,9 +49,42 @@
     user interfaces, and innovative web applications. I'm excited to collaborate on your next digital project. Let's
     build the web together.
 </p>
-</body>
-<!--Footer-->
-<footer>Copyright Ciaran Gold <a href="https://ciarangold.github.io/"><img src="images/github.svg" alt="Ciaran Gold GitHub" height="20px"></a>
+
+<!-- portfolio -->
+<h2 id="portfolio">Portfolio</h2>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-2" style="width: ">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Colmar Academy</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card" style="width: ">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--contact-->
+<h2 id="contact">Contact</h2>
+<a href="https://ciarangold.github.io/"><img src="images/github.svg" alt="Ciaran Gold GitHub" height="20px"></a>
     <a href="https://ciarangold.github.io/"><img src="images/linkedin.svg" alt="Ciaran Gold GitHub" height="20px"></a>
+<!--Footer-->
+<footer><p class="h6 footer">Copyright Ciaran Gold</p>
 </footer>
+</div>
+<!--Bootstrap JS link-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>
