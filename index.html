@@ -5,30 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciaran Gold | Web Developer</title>
+    <div>
+    
     <link rel="icon" type="'image/x-icon" href="images/pen-solid.ico">
     <!--Bootstrap CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="style/style.css" type="text/css" rel="stylesheet">
     <meta name="description" content="The website of web developer Ciaran Gold">
+    
 </head>
 <!-- nav -->
 <body>
-    <nav class="navbar navbar-expand-md bg-body-secondary">
+  <div class="hero-container">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><b>Ciaran Gold</b></a>
+          
+    <nav class="navbar header-transparent navbar-expand-md ">
+          <a class="navbar-brand" href="#"><b class="text-white">Ciaran Gold</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav m mb-0 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active"aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active text-white"aria-current="page" href="index.html">About me</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link text-white" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -37,37 +42,57 @@
 <!--     <nav><a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></nav> -->
 
 <!--Hero section-->
-<img class="img-fluid" src="images/ColmarAcademy.jpg" alt="">
+<img src="images/ciaran-portfolio.png" alt="" class="ciaran" height="80%">
+<h1 id="hero-text"></h1>
+<script type="text/JavaScript" src="js/animate-header.js"></script>
+</div>
+
 
 <div class="container-fluid">
-    <h1 class="mt-2">Ciaran Gold</h1>
-    <h2>Web developer</h2>
+    
+
 
 <!--about-->
-    
-    <p class="">Welcome to my portfolio! Here's some placeholder text!
+    <br>
+    <p class="">Hi!
     <br>
     <br>
-    I'm a passionate web developer dedicated to crafting engaging online experiences. With a blend of creativity
-    and technical expertise, I bring ideas to life through code. Explore my work to see responsive designs, intuitive
-    user interfaces, and innovative web applications. I'm excited to collaborate on your next digital project. Let's
-    build the web together.
+  I'm Ciaran, a UK-based web developer with a background as a multi-award-winning journalist, business owner and retailer.
+  <br>
+  <br>
+  When I'm not coding, I enjoy playing football (when by body allows me to!) cycling, gaming and spending time with my family.
+
 </p>
 <hr>
 <!--skills-->
 <h2 id="skills">Skills</h2>
-<img src="images/icons8-html5-48.png" alt="HTMl5">
-<img src="images/icons8-css3-48.png" alt="CSS">
-<img src="images/icons8-javascript-48.png" alt="JavaScript">
-<img src="images/icons8-git-48.png" alt="GitHub">
-<img src="images/icons8-bootstrap-48.png" alt="">
+<h5 class="web-development text-secondary">Core Technologies:</h3>
+<img src="images/icons8-html5-48.png" alt="HTML5 logo">
+<img src="images/icons8-css3-48.png" alt="CSS logo">
+<img src="images/icons8-javascript-48.png" alt="JavaScript logo">
+<img src="images/icons8-git-48.png" alt="GitHub logo">
+<img src="images/icons8-bootstrap-48.png" alt="bootstrap logo">
+<h3>Software</h3>
+<img src="images/Visual-Studio-logo.png" alt="" class="logo" height="40px">
+<img src="" alt="" class="logo">
+<img src="" alt="" class="logo">
+<img src="" alt="" class="logo">
+<img src="" alt="" class="logo">
+<img src="" alt="" class="logo">
+Magento
+G suite
+InDesign
+Canva 
+Inkscape
+GIMP
+
 <hr>
 <!-- portfolio -->
 <h2 id="portfolio">Portfolio</h2>
 <!-- card1 -->
 <div class="row">
   <div class="col-sm-4">
-    <div class="card mb-2" style="width: ">
+    <div class="card mb-2">
       <img class="card-img-top" src="images/ColmarAcademy.jpg" alt="Colmar academy">
       <div class="card-body">
         <h5 class="card-title">Colmar Academy</h5>
@@ -81,7 +106,7 @@
   </div>
   <!-- card2 -->
   <div class="col-sm-4">
-    <div class="card mb-2" style="width: ">
+    <div class="card mb-2">
       <img class="card-img-top" src="images/creditCard.jpg" alt="Credit card">
       <div class="card-body">
         <h5 class="card-title">Credit card checker</h5>
@@ -94,14 +119,14 @@
   </div>
   <!--card3-->
   <div class="col-sm-4">
-    <div class="card mb-2" style="width: ">
+    <div class="card mb-2">
       <img class="card-img-top" src="images/dna.jpg" alt="Credit card">
       <div class="card-body">
         <h5 class="card-title">Project: Mysterious Organism</h5>
         <p class="card-text">Create objects that simulate the DNA of an organism. </p>
           <span class="badge text-bg-primary">JS</span>
           <br><br>
-        <a href="#" class="btn btn-primary">GitHub repository</a>
+        <a href="https://github.com/CiaranGold/Organism" class="btn btn-primary">GitHub repository</a>
       </div>
     </div>
   </div>

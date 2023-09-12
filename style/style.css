@@ -1,0 +1,45 @@
+.hero-container {
+background-image:linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.274)),url("../images/web-developer.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 50vw;
+}
+#hero-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    line-height: 2.5rem;
+    border-right: 3px solid #fff;  
+    animation: cursor 950ms step-end infinite;
+  }
+  @keyframes cursor {
+    from, to { border-color: transparent; }
+    50% { border-color: #fff; }
+  }
+
+.ciaran {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+@media screen and (min-width: 700px) {
+    .hero-container {
+        height: 40vw;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .hero-container {
+        height: 35vw;
+    }
+    
+}

@@ -29,10 +29,16 @@ Build multipage website using HTML, CSS, Javascript.
         
 ## <img src="images/bars-progress-solid.svg" width="20" height="20" style="margin-right: 5px;"> Version updates:
 
+### 0.3
+
+- Added Bootstrap
+- Added Bootstrap navbar
+- Added Hero image
+
 ### 0.2
 
 - Added index.html
-- Added skeleton website structure
+- Added skeleton website structure (projects.html,blog.html.contact.html)
 
 ### 0.1
 
