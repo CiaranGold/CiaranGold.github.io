@@ -231,26 +231,25 @@
     <form action="https://formspree.io/f/mknlpvqw" method="POST">
 
       <div class="form-floating mb-3 md-4">
-        <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Name:</label>
+        <input type="text" class="form-control" id="nameInput" name="name" placeholder="Name">
+        <label for="nameInput">Name:</label>
       </div>
-
+    
       <div class="form-floating mb-3 md-4">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email address:</label>
+        <input type="email" class="form-control" id="emailInput" name="email" placeholder="name@example.com">
+        <label for="emailInput">Email address:</label>
       </div>
-
-  
-  <div class="form-floating">
-    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
-    <label for="floatingTextarea">Message:</label>
-  </div>
-
-<br>
-
-
-  <button type="submit">Send</button>
-</form>
+    
+      <div class="form-floating">
+        <textarea class="form-control" name="message" placeholder="Leave a comment here" id="messageTextarea" style="height: 100px"></textarea>
+        <label for="messageTextarea">Message:</label>
+      </div>
+    
+      <br>
+    
+      <button type="submit">Send</button>
+    </form>
+    
 <hr>
 
 <!--logos-->
