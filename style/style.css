@@ -35,6 +35,22 @@ height: 50vw;
     top: 20%;
     left: 5%;
     z-index: 1;
+    transform: scale(1);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transitions */
+    animation: fadeIn 2s forwards, 0s 1s 1; /* Initial drawing animation and pulse animation */
+}
+
+@media screen and (max-width: 400px) {
+    .hero-container {
+        height: 60vw;
+    }
+    #hero-text{
+        visibility: hidden;
+    }
+    .ciaran {
+       left: 20%; 
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -50,15 +66,17 @@ height: 50vw;
     }
     
 }
-.fadeIn {
-	width: 100px;
-	height: 100px;
-	opacity: 0.00;
-	transition: 100ms all ease-in-out;
-	-moz-transition: 100ms all ease-in-out;
-	-webkit-transition: 100ms all ease-in-out;
-}
+
 
   .fadeIn.active {
 	opacity: 1.00;
 }
+ 
+@keyframes fadeIn {
+    to {
+      opacity: 1; /* Fade in by setting opacity to 1 */
+    }
+  }
+  
+  
+  
