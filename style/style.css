@@ -37,8 +37,8 @@ height: 50vw;
     z-index: 1;
     transform: scale(1);
     opacity: 0;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transitions */
-    animation: fadeIn 2s forwards, 0s 1s 1; /* Initial drawing animation and pulse animation */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+    animation: fadeIn 0.5s forwards, 0s 1s 1; 
 }
 
 @media screen and (max-width: 400px) {
