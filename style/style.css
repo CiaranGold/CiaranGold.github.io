@@ -15,19 +15,26 @@ height: 50vw;
     top: 50%;
     left: 70%;
     transform: translate(-50%,-50%);
-    line-height: 2.5rem;
+    display: inline-block;
+    line-height: 1.3;
     border-right: 3px solid #fff;  
-    animation: cursor 950ms step-end infinite;
+    animation: cursor 1s step-end infinite;
   }
   @keyframes cursor {
     from, to { border-color: transparent; }
     50% { border-color: #fff; }
   }
 
+ #nav {
+    z-index: 99;
+    position: relative;
+    z-index: 2;
+ }
 .ciaran {
     position: absolute;
     top: 20%;
     left: 5%;
+    z-index: 1;
 }
 
 @media screen and (min-width: 700px) {
@@ -42,4 +49,16 @@ height: 50vw;
         height: 35vw;
     }
     
+}
+.fadeIn {
+	width: 100px;
+	height: 100px;
+	opacity: 0.00;
+	transition: 100ms all ease-in-out;
+	-moz-transition: 100ms all ease-in-out;
+	-webkit-transition: 100ms all ease-in-out;
+}
+
+  .fadeIn.active {
+	opacity: 1.00;
 }

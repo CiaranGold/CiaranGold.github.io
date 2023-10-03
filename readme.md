@@ -4,7 +4,7 @@ Ciaran Gold's personal portfolio project.
 
 ## <img src="images/list-solid.svg" width="23" height="23" style="margin-right: 5px;"> Basic requirements:
 
-Build multipage website using HTML, CSS, Javascript.
+Build website using HTML, CSS, Javascript.
 
 ### <img src="images/file-lines-solid.svg" width="20" height="20" style="margin-right: 5px;"> index.html
         
@@ -29,10 +29,15 @@ Build multipage website using HTML, CSS, Javascript.
         
 ## <img src="images/bars-progress-solid.svg" width="20" height="20" style="margin-right: 5px;"> Version updates:
 
+### 0.4
+
+- Added JavaScript animation of H1 text
+
 ### 0.3
 
-- Added Bootstrap
+- Added Bootstrap functionality
 - Added Bootstrap navbar
+- Changed from multipage website style to single page
 - Added Hero image
 
 ### 0.2
