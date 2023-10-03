@@ -1,10 +1,10 @@
 # <img src="images/file-regular.svg" width="25" height="25" style="margin-right: 5px;">  Personal Portfolio
 
-Ciaran Gold's personal portfolio project.
+Ciaran Gold's personal portfolio 
 
 ## <img src="images/list-solid.svg" width="23" height="23" style="margin-right: 5px;"> Basic requirements:
 
-Build website using HTML, CSS, Javascript.
+
 
 ### <img src="images/file-lines-solid.svg" width="20" height="20" style="margin-right: 5px;"> index.html
         
@@ -52,3 +52,4 @@ Build website using HTML, CSS, Javascript.
 - Started Git version control
 
 
+# CiaranGold.github.io
