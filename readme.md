@@ -2,6 +2,9 @@
 
 Ciaran Gold's personal portfolio 
 
+### 0.6
+
+- Added Open Graph meta tags
 
 ### 0.5
 
