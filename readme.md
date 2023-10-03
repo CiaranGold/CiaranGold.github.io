@@ -2,32 +2,11 @@
 
 Ciaran Gold's personal portfolio 
 
-## <img src="images/list-solid.svg" width="23" height="23" style="margin-right: 5px;"> Basic requirements:
 
+### 0.5
 
-
-### <img src="images/file-lines-solid.svg" width="20" height="20" style="margin-right: 5px;"> index.html
-        
-- About me/bio
-- Picture
-
-### <img src="images/phone-solid.svg" width="20" height="20" style="margin-right: 5px;">  contact.html
-- HTML form for email 
-- Link to GitHub page
-- Link to LinkedIn profile
-
-### <img src="images/pen-solid.svg" width="20" height="20" style="margin-right: 5px;"> blog.html
-- Article format including:
-    - Title
-    - Timestamp/date
-    - Text body
-    - Tags
-    
-### <img src="images/folder-tree-solid.svg" width="20" height="20" style="margin-right: 5px;"> projects.html
-- Project previews
-    - Link to GitHub repositories for each file
-        
-## <img src="images/bars-progress-solid.svg" width="20" height="20" style="margin-right: 5px;"> Version updates:
+- Changed porfolio cards to have footer at bottom
+- Add 'fastFoodie' JS game to portfolio
 
 ### 0.4
 
