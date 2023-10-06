@@ -1,6 +1,5 @@
-
-    // Texts to type out
-const textsToType = ["Web developer.","Copywriter."];
+  // Texts to type out
+const textsToType = ["Ciaran Gold.","Web developer."];
 let currentIndex = 0;
 const textElement = document.getElementById("hero-text");
 
@@ -36,7 +35,3 @@ eraseText = () => {
 
 // Start typing animation when the page loads
 window.onload = typeText;
-
-
-
-    

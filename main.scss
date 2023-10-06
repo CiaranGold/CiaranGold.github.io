@@ -1,0 +1,79 @@
+
+ h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+/* h2, h3, h4, b, .badge,.btn.btn-primary,.btn.btn-secondary, .btn-group, .form-floating {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;} */ 
+
+h5, .card-title {
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+$secondary: #0096dc;
+$warning: #f7df1e;
+
+.hero-container {
+    background-image:linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.76)),url("../images/web-developer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 20vw;
+    }
+    
+    #hero-text {
+        text-align: center;
+        color: white;
+        position: absolute;
+        white-space: nowrap;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: inline-block;
+        line-height: 1.8;
+        cursor: none; /* Hide the default cursor */
+      }
+      
+      #hero-text::after {
+        content: "|"; /* Content is the vertical line representing the cursor */
+        display: inline-block;
+        animation: cursor 1s step-end infinite;
+        color: white; /* Color of the cursor */
+      }
+      
+      @keyframes cursor {
+        from, to { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      
+    
+     #nav {
+        z-index: 99;
+        position: relative;
+        z-index: 2;
+     }
+    .ciaran {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        z-index: 1;
+        transform: scale(1);
+        opacity: 0;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+        animation: fadeIn 0.5s forwards, 0s 1s 1; 
+    }
+    
+    
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+

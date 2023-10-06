@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,8 +9,7 @@
 
     <link rel="icon" type="'image/x-icon" href="images/ciaran-gold-icon.ico">
 <!--Bootstrap CSS link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
     <link href="style/style.css" type="text/css" rel="stylesheet">
 <!--metatags-->
     <meta name="description" content="The website of web developer Ciaran Gold">
@@ -20,41 +19,24 @@
     <meta property="og:url" content="https://ciarangold.github.io">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_UK">
+    
+      <style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
+
 </head>
 <!-- nav -->
 
 <body>
-  <div class="hero-container">
-    <div class="container-fluid">
+  <div class="container-fluid g-0">
 
-      <nav id="nav" class="navbar header-transparent navbar-expand-md">
-        <a class="navbar-brand" href="#"><b class="text-white">Ciaran Gold</b></a>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav m mb-0 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="#about">About me</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-white" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav> -->
-    </div>
-
-    <!--     <nav><a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></nav> -->
-
+  <div class="hero-container"> 
+    
     <!--Hero section-->
-    <img src="images/ciaran-portfolio.png" alt="" class="ciaran" height="80%">
-    <h1 id="hero-text"></h1>
+    <h1 id="hero-text" class="display-1"></h1>
+
     <script type="text/JavaScript" src="js/animate-header.js"></script>
+    <br>
+    
   </div>
 
 
@@ -72,7 +54,11 @@
       retailer.
       <br>
       <br>
-      When I'm not coding, I enjoy playing football (when my body allows me to!) cycling, video games and spending time
+      I like to make websites, programs and games. Take a look at some of my most recent work below.
+
+      
+      <br>
+      <p>When I'm not coding, I enjoy playing football cycling, video games and spending time
       with my family.
 
     </p>
@@ -92,11 +78,12 @@
 
  <hr> -->
     <!-- portfolio -->
-    <h2 id="portfolio">Portfolio</h2>
+    <br><h2 id="portfolio" class="display-4">Recent work</h2>
+    <br>
     <!-- card1 -->
     <div class="row">
       <div class=" col-md-4 col-sm-6 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 shadow-lg">
           <img class="card-img-top" src="images/ColmarAcademy.jpg" alt="Colmar academy">
           <div class="card-body">
             <h5 class="card-title text-center ">Colmar Academy</h5>
@@ -104,36 +91,37 @@
           </div>
           <div class="card-footer">
             <b>Made with: </b><span class="badge text-bg-primary">HTML</span>
-            <span class="badge text-bg-secondary">CSS</span>
+            <span class="badge text-bg-primary">CSS</span>
             <br>
             <br>
-            <div class="btn-group d-flex justify-content-center" role="group" aria-label="...">
-              <a href="https://github.com/CiaranGold/colmar-academy" class="btn btn-primary">Source code</a>
-              <a href="https://ciarangold.github.io/colmar-academy/" class="btn btn-secondary">Website</a>
+            <div class="btn-group d-flex justify-content-center" role="group" aria-label="colmar academy action buttons">
+              <a href="https://github.com/CiaranGold/colmar-academy" class="btn btn-success">Source code</a>
+              <a href="https://ciarangold.github.io/colmar-academy/" class="btn btn-success">Website</a>
             </div>
-            
           </div>
         </div>
       </div>
 
       <!-- card2 -->
       <div class=" col-md-4 col-sm-6 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 shadow-lg">
           <img class="card-img-top" src="images/fast-foodie.jpg" alt="Fast Foodie">
           <div class="card-body">
-            <h5 class="card-title text-center">FastFoodie game</h5>
+            <h5 class="card-title text-center ">FastFoodie game</h5>
             <p class="card-text">A browser-based game utilising the Phaser.js framework. Requires a keyboard to play.
             </p>
           </div>
           <div class="card-footer">
             <b>Made with:</b>
+         
+            
             <span class="badge text-bg-primary">HTML</span>
-            <span class="badge text-bg-warning">JS</span>
+            <span class="badge text-bg-primary">JS</span>
             <br>
             <br>
             <div class="btn-group d-flex justify-content-center" role="group" aria-label="...">
-              <a href="https://github.com/CiaranGold/fast-foodie" class="btn btn-primary">Source code</a>
-              <a href="https://ciarangold.github.io/fast-foodie/" class="btn btn-secondary">Play game</a>
+              <a href="https://github.com/CiaranGold/fast-foodie" class="btn btn-success">Source code</a>
+              <a href="https://ciarangold.github.io/fast-foodie/" class="btn btn-success">Play game</a>
             </div>
           </div>
         </div>
@@ -141,7 +129,7 @@
 
       <!--card3-->
       <div class=" col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 mb-2">
+        <div class="card h-100 mb-2 shadow-lg">
           <img class="card-img-top" src="images/web-developer-card.jpg" alt="Credit card">
           <div class="card-body">
             <h5 class="card-title text-center">Portfolio website</h5>
@@ -150,12 +138,14 @@
           </div>
           <div class="card-footer">
             <b>Made with:</b>
-            <span class="badge text-bg-primary">HTML</span> <span class="badge text-bg-secondary">CSS</span>
-            <span class="badge text-bg-warning">JS</span>
-            <br>
+            
+            
+            <span class="badge text-bg-primary">HTML</span> <span class="badge text-bg-primary">SASS</span>
+            <span class="badge text-bg-primary">JS</span>
+            <span class="badge text-bg-primary">BOOTSTRAP</span><br>
             <br>
             <div class="btn-group d-flex justify-content-center" role="group" aria-label="...">
-            <a href="https://github.com/CiaranGold/personal-portfolio" class="btn btn-primary">Source code</a>
+            <a href="https://github.com/CiaranGold/personal-portfolio" class="btn btn-success">Source code</a>
             </div>
             </div>
           </div>
@@ -163,7 +153,7 @@
       <!--card4-->
 
       <div class=" col-md-4 col-sm-6 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 mb-2 shadow-lg">
           <img class="card-img-top" src="images/creditCard.jpg" alt="Credit card">
           <div class="card-body">
             <h5 class="card-title text-center">Credit card checker</h5>
@@ -171,18 +161,18 @@
           </div>
           <div class="card-footer">
             <b>Made with:</b>
-            <span class="badge text-bg-warning">JS</span>
+            <span class="badge text-bg-primary">JS</span>
             <br>
             <br>
             <div class="btn-group d-flex justify-content-center" role="group" aria-label="...">
-            <a href="https://github.com/CiaranGold/credit-card-checker" class="btn btn-primary">Source code</a>
+            <a href="https://github.com/CiaranGold/credit-card-checker" class="btn btn-success">Source code</a>
             </div>
           </div>
         </div>
       </div>
       <!--card5-->
       <div class=" col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 mb-2">
+        <div class="card h-100 mb-2 shadow-lg">
           <img class="card-img-top" src="images/dna.jpg" alt="Mysterious Organism">
           <div class="card-body">
             <h5 class="card-title text-center">Mysterious Organism</h5>
@@ -190,30 +180,30 @@
               organism. </p>
             </div>
             <div class="card-footer">
-              <b>Made with:</b> <span class="badge text-bg-warning">JS</span>
+              <b>Made with:</b> <span class="badge text-bg-primary">JS</span>
             <br>
             <br>
             <div class="btn-group d-flex justify-content-center" role="group" aria-label="...">
-            <a href="https://github.com/CiaranGold/Organism" class="btn btn-primary">Source code</a>
+            <a href="https://github.com/CiaranGold/Organism" class="btn btn-success">Source code</a>
             </div>
           </div>
         </div>
       </div>
       <!--card6-->
       <div class=" col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 mb-2">
+        <div class="card h-100 mb-2 shadow-lg">
           <img class="card-img-top" src="images/rpg-generator.jpg" alt="Mysterious Organism">
           <div class="card-body">
-            <h5 class="card-title text-center">Character Generator</h5>
+            <h5 class="card-title text-center">Character Generator</h3>
             <p class="card-text">Uses arrays to create a RPG-style character, calling elements randomly from them to
               generate a character. </p>
             </div>
             <div class="card-footer">
               <b>Made with:</b>
-              <span class="badge text-bg-warning">JS</span>
+              <span class="badge text-bg-primary">JS</span>
             <br><br>
             <div class="btn-group d-flex justify-content-center" role="group" aria-label="...">
-            <a href="https://github.com/CiaranGold/character-generator" class="btn btn-primary">Source code</a>
+            <a href="https://github.com/CiaranGold/character-generator" class="btn btn-success">Source code</a>
             </div>
           </div>
         </div>
@@ -225,46 +215,45 @@
 
 
     <!--contact-->
-    <h2 id="contact">Get in touch</h2>
-    <p> Have a project in mind you would like me to help with? Get in touch!</p>
+    <h2 id="contact" class= "display-4">Get in touch</h2>
+    <p> Have a project in mind you would like me to talk to me about? Let me know!</p>
       
     <form action="https://formspree.io/f/mknlpvqw" method="POST">
 
       <div class="form-floating mb-3 md-4">
-        <input type="text" class="form-control" id="nameInput" name="name" placeholder="Name">
+        <input type="text" class="form-control shadow-sm" id="nameInput" name="name" placeholder="Name" required>
         <label for="nameInput">Name:</label>
       </div>
     
       <div class="form-floating mb-3 md-4">
-        <input type="email" class="form-control" id="emailInput" name="email" placeholder="name@example.com">
+        <input type="email" class="form-control shadow-sm" id="emailInput" name="email" placeholder="name@example.com" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
         <label for="emailInput">Email address:</label>
       </div>
     
       <div class="form-floating">
-        <textarea class="form-control" name="message" placeholder="Leave a comment here" id="messageTextarea" style="height: 100px"></textarea>
-        <label for="messageTextarea">Message:</label>
+        <textarea class="form-control shadow-sm" name="message" placeholder="Leave a comment here" id="messageTextarea" style="height: 200px" required></textarea>
+        <label for="messageTextarea">Your message:</label>
       </div>
     
       <br>
     
-      <button type="submit">Send</button>
+      <button type="submit" class="btn btn-success">Send</button>
     </form>
+    
     
 <hr>
 
 <!--logos-->
+<div class="d-flex justify-content-between align-items-center">
+  <div>
     <a href="https://ciarangold.github.io/"><img src="images/icons8-github-48.png" alt="Ciaran Gold GitHub"></a>
-    <a href="https://uk.linkedin.com/in/ciaran-gold"><img src="images/icons8-linkedin-48.png"
-        alt="Ciaran Gold GitHub"></a>
-    <!--Footer-->
-    <footer>
-      <p>Copyright Ciaran Gold</p>
-    </footer>
+    <a href="https://uk.linkedin.com/in/ciaran-gold"><img src="images/icons8-linkedin-48.png" alt="Ciaran Gold LinkedIn"></a>
   </div>
+  <p class="mb-0">Copyright Ciaran Gold</p>
+</div>
+<br>
   <!--Bootstrap JS link-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+  <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
