@@ -2,9 +2,16 @@
 
 Ciaran Gold's personal portfolio 
 
+### 0.7
+
+- Redesigned hero image area to simpler format
+- Added card shadow
+- Changed badge colour scheme for 'made with' sections 
+
 ### 0.6
 
 - Added Open Graph meta tags
+- Removed navbar
 
 ### 0.5
 
