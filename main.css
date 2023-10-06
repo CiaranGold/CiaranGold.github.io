@@ -25,7 +25,6 @@ p {
 }
 
 #hero-text {
-  text-align: center;
   color: white;
   position: absolute;
   white-space: nowrap;
@@ -33,9 +32,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: inline-block;
   line-height: 1.8;
-  cursor: none; /* Hide the default cursor */
 }
 
 #hero-text::after {
@@ -63,11 +60,7 @@ p {
   position: absolute;
   top: 20%;
   left: 5%;
-  z-index: 1;
-  transform: scale(1);
-  opacity: 0;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  animation: fadeIn 0.5s forwards, 0s 1s 1;
+  z-index: 2;
 }
 
 /*!
