@@ -2,6 +2,11 @@
 
 Ciaran Gold's personal portfolio 
 
+### 0.8
+
+- Added 'workAround explorer' card to portfolio
+- Addded GitHub page to 'character generator' card
+
 ### 0.7
 
 - Redesigned hero image area to simpler format
