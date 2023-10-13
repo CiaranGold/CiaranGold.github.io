@@ -17,7 +17,7 @@ p {
 }
 
 .hero-container {
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.76)), url("../images/web-developer.jpg");
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.76)), url("/images/web-developer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
